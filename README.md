@@ -1,7 +1,7 @@
 # Test project
 ## Setup containerised system using Docker 
 ### Setup the following containers: 
-1. Web frontend: 
+1. Web frontend 
   a. PHP 7.0.33 
   b. Xdebug 
   c. Apache 
