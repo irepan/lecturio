@@ -94,6 +94,7 @@ if($count==0){
   foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) { 
     echo $v;
   }
+  echo "</table>";
 //print_r($sth->fetchColumn());
 // Perform database operations
 
