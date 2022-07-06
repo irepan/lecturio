@@ -89,7 +89,7 @@ Open your browser and go to [php-mongo](http://localhost/mongotest.php)
 ## Check mysql using PhpMyAdmin
 Open your browser and go to [php-myadmin](http://localhost:8085) leave the server field empty and you can use either root user with `MYSQL_ROOT_PASSWORD`, or `MYSQL_USER/MYSQL_PASSWORD`
 ## Check MongoDB activity using MongoExpress
-Open your browser and go to [php-myadmin](http://localhost:8081) and use the `ME_CONFIG_BASICAUTH_USERNAME/ME_CONFIG_BASICAUTH_PASSWORD` on your `.env` dile
+Open your browser and go to [Mongo Express](http://localhost:8081) and use the `ME_CONFIG_BASICAUTH_USERNAME/ME_CONFIG_BASICAUTH_PASSWORD` on your `.env` dile
 
 # Build docker image for production (without xdebug)
 cd to Frontend folder and you can build your image using the following instruction:
