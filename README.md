@@ -73,16 +73,16 @@ This file will hold the details to inject variables on environment and values ar
 docker-compose up
 ```
 ### Check the php configuration
-Open your browser and go to [php-config](httpo://localhost/phpinfo.php)
+Open your browser and go to [php-config](http://localhost/phpinfo.php)
 ### Test the mysql actions
-Open your browser and go to [php-mysql](httpo://localhost/mysql.php)
+Open your browser and go to [php-mysql](http://localhost/mysql.php)
 ### Test the MongoDB actions
-Open your browser and go to [php-mongo](httpo://localhost/mongotest.php)
+Open your browser and go to [php-mongo](http://localhost/mongotest.php)
 
 ## Check mysql using PhpMyAdmin
-Open your browser and go to [php-myadmin](httpo://localhost:8085) leave the server field empty and you can use either root user with `MYSQL_ROOT_PASSWORD`, or `MYSQL_USER/MYSQL_PASSWORD`
+Open your browser and go to [php-myadmin](http://localhost:8085) leave the server field empty and you can use either root user with `MYSQL_ROOT_PASSWORD`, or `MYSQL_USER/MYSQL_PASSWORD`
 ## Check MongoDB activity using MongoExpress
-Open your browser and go to [php-myadmin](httpo://localhost:8081) and use the `ME_CONFIG_BASICAUTH_USERNAME/ME_CONFIG_BASICAUTH_PASSWORD` on your `.env` dile
+Open your browser and go to [php-myadmin](http://localhost:8081) and use the `ME_CONFIG_BASICAUTH_USERNAME/ME_CONFIG_BASICAUTH_PASSWORD` on your `.env` dile
 
 # Build docker image for production (without xdebug)
 cd to Frontend folder and you can build your image using the following instruction:
