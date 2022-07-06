@@ -52,13 +52,21 @@ ME_CONFIG_BASICAUTH_PASSWORD=mexpress
 This file will hold the details to inject variables on environment and values are as follows
 
 **MYSQL_DATABASE** Means the name of the database to be created and where data is going to be inserted by default on MySQL database
+
 **MYSQL_USER** The user that will have all privileges granted on the MYSQL_DATABASE database
+
 **MYSQL_PASSWORD** The password for MYSQL_USER
+
 **MYSQL_ROOT_PASSWORD** The root password for MySQL
+
 **MONGO_INITDB_ROOT_USERNAME** MongoDB root user name
+
 **MONGO_INITDB_ROOT_PASSWORD** MongoDB root user's password
+
 **ME_CONFIG_BASICAUTH_USERNAME** Mongo Express username
+
 **ME_CONFIG_BASICAUTH_PASSWORD** MongoExpress password
+
 
 ## Run the environment
 ```
