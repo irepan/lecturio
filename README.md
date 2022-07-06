@@ -1,10 +1,10 @@
 # Test project
 ## Setup containerised system using Docker 
 ### Setup the following containers: 
-1. Web frontend.
-  a. PHP 7.0.33 
-  b. Xdebug 
-  c. Apache 
+1. Web frontend:
+  1. PHP 7.0.33 
+  2. Xdebug 
+  3. Apache 
 2. MySQL 
 3. MongoDB 
 ### How to test the system 
