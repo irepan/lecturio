@@ -69,6 +69,13 @@ This file will hold the details to inject variables on environment and values ar
 
 
 ## Run the environment
+Make sure the following ports are free on your local box (or the box you are running the environment at)
+* **80** (For the frontend)
+* **3306** (For MySQL)
+* **8085** (For PhpMyAdmin)
+* **27017** ( For MongoDB)
+* **8081**  ( For Mongo Express)
+
 ```
 docker-compose up
 ```
