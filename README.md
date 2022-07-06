@@ -97,3 +97,15 @@ cd to Frontend folder and you can build your image using the following instructi
 docker build .
 ```
 that instruction will make use of the Dockerfile instead of the Dockerfile.dev which is the one that has the xdebug enabled
+
+# Architecture layout Porposal for AWS cloud
+
+![Architecture Layout](./lecturio.png "Layout")
+
+## High Availavility
+We are getting use of **MySQL RDS** service from **AWS** and they will manage highg availability on their end, also we are making use of the **Managed MongoDB** service, both are directly connected to the **EKS** cluster's **VPC** so it is accesible for PODS in the cluster.
+
+We suggest to have 3 zones on the cluster, so pods are being scheduled on them, and if one zone goes down there are other 2 up, that will ensure us a 99.95 Up time. If we need to set it on a 99.99 up time, then we will ned to create another cluster on a different region and link them using Multi-cluster ingress or a AWS Load Balancer.
+
+The **self recover** and **scalability** is managed by the K8s HPA controller that makes sure a minimum of (3 in this case) pods are running correctly, and will scale up in case of high CPU and/or memory consumption, as they are all stateless, then they can be created and take down at will without a problem
+
